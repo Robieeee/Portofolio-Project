@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 80px 30px;
+    background-color: #EBEBEB;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about img{
+    padding-top: 40px;
+    height: 480px;
+    width: 500px;
+}
+
+.about-text{
+    width: 500px;
+}
+
+.mainabout{
+    width: 1130px;
+    max-width: 100%;
+    margin: 35px 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.about-text h1{
+    color: #5dca88;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+span{
+    color: #FF69B4;
+}
+
+/* .about-text{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+} */
+
+.about-text p{
+  color: #FA5c5c;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 17px;
+  margin-bottom: 9px;
+}
+
+button{
+  background: #5dca88;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 28px ;
+  transition: .4s;
+}
+
+button:hover{
+  background: transparent;
+  border: 2px solid #5dca88;
+  cursor: pointer;
+}
+
+footer img {
+  width: 73px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #228B22;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #228B22;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 70px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.heading {
+  padding-top: 70px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+}

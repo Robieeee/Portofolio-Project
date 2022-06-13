@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper {
+    padding: 150px 0 130px 0;
+    padding-bottom: 100px;
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    opacity: 2.0;
+}
+
+.top-wrapper h1 {
+    font-family: sans-serif;
+    opacity: 2.0;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    color: #FF0000;
+    
+}
+
+.top-wrapper h2 {
+  font-size: 0px;
+  letter-spacing: 2px;
+}
+
+.top-wrapper p {
+    font-size: 40px;
+    opacity: 3.0;
+    margin-bottom: 3px;
+    color: #FF0000;
+  }
+
+  .btn-wrapper {
+    padding-top: 10px;
+    text-align: auto;
+    margin: 50px 0 50px 0;
+    margin-top: 10px;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #228B22;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 70px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  .header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .side-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 25px 26px;
+    transition: all 0.5s;
+    display : none;
+  }
+
+  .side-icon:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .cc-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 70px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+
+  .pilihan-icon img{
+    width: 50%;
+    border-radius: 8px;
+  }
+
+  .menu2-icon img{
+    width: 30%;
+    border-radius: 8px;
+  }
+
+
+  .header-menu h2{
+    border: 2px solid #333;
+  }
+
+  
+  .cc1, .cc3{
+    padding : 5px 20px 340px 20px
+  }
+
+  .cc1 h2, .cc3 h2{
+    padding-bottom: 35px;
+    margin-bottom: 52px;
+    font-size: 60px;
+    border-bottom: 2px solid #333;
+    align-items: center;
+  }
+
+
+  .y, .c{
+    float : left;
+    width: 25%;
+  }
+
+  .contact p{
+    font-size: 15px;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .price-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .message-wrapper{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 7px #1a7940;
+    text-align: center;
+    color: white;
+  }
+
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .heading2 h3{
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+
+  footer img {
+    width: 73px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    background-color: #228B22;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-media img {
+    width: 30px;
+  }
+
+  /* .fix {
+    height: 49px;
+  } */
+
+  .container-product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    justify-content: center;
+  }
+
+  .product-card {
+    margin: 10px;
+    width: 509px;
+    height: 560px;
+    background: whitesmoke;
+    border-radius: 15px;
+    border: solid 1px #f5d554;
+    margin-bottom: 100px;
+  }
+
+  .product-card img {
+    width: 75%;
+    margin: 10px 25px
+  }
+
+  .product-card:hover {
+    transform: scale(1.1);
+  }
+
+  .p-card {
+    margin: 5px 15px;
+    font-size: 15px;
+  }
+
+  .buy-now {
+    width: 150px;
+    height: 35px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: #03A460;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+  }
+
+  .container-grid {
+    margin: 100px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .heading-product {
+    width: 80%;
+    margin: 80px auto 20px auto;
+  }
+
+  .footer-logo {
+  padding-top: 19px;
+  width: 100px;
+  height: 40px;
+  }
+

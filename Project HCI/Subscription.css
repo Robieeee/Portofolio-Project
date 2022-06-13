@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    background-image: url(bgimg3.jpg);
+}
+.header-right{
+    position: sticky;
+}
+.reg{
+    max-width: 650px;
+    width: 96%;
+    background: rgb(255, 255, 255);
+    padding: 27px 32px;
+    border-radius: 7px;
+}
+
+.reg .judul{
+    font-size: 25px;
+    position: relative;
+    font-weight: 550;
+}
+
+.reg .judul::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #228B22;
+    left: 0;
+    bottom: 0;
+}
+
+.reg form .user-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px 0;
+    flex-wrap: wrap;
+}
+
+form .user-details .input{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 13px;
+}
+
+.user-details .input .detail{
+    font-weight: 400;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.user-details .input input{
+    height: 25px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+    width: 100%;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input input:focus,
+.user-details .input input:valid{
+    border-color:#ADD8E6
+}
+
+
+form .gender-detail .gender-title{
+    font-size: 15px;
+    font-weight: 470;
+}
+
+form .gender-detail .kategori{
+    width: 75%;
+    display: flex;
+    margin: 16px 0;
+    justify-content: space-between;
+}
+
+.gender-detail .kategori label{
+    display: flex;
+    align-items: center;
+}
+
+
+.gender-detail .kategori .pilih{
+    height: 17px;
+    width: 17px;
+    background: #808080;
+    border-radius: 50%;
+    margin-right: 4px;
+    border: 5px solid transparent;
+}
+
+#dot-1:checked ~ .kategori label .satu,
+#dot-2:checked ~ .kategori label .dua{
+    border-color:#808080;
+    background: #FF69B4;
+
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+form .tombol{
+    height: 10px;
+    margin: 20px 0;
+}
+
+form .tombol input{
+    height: 300%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-weight: 490;
+    font-size: 17px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    background: #22c76c;
+}
+
+form .tombol input:hover{
+    background: linear-gradient(135deg, #228B22, #9b59b6);
+}
+
+
+.checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox__input{
+    display: none;
+}
+
+.checkbox__box{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.checkbox__box::after{
+    content: '\2714';
+    color: #fff;
+}
+
+.checkbox__input:checked  + .checkbox__box{
+    background: #2266dc;
+    border-color: #2266dc;
+}

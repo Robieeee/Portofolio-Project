@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="Subscription.css">
+    <script defer src="subs.js"></script>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class = "header-left"></div>
+            <img class="logo" src="./logo.png" alt="">
+            <a href="#"><span class="fa fa-bars side-icon"></span></a>
+            <div class="header-right">
+                <a  href="home.html">Home</a>
+                <a  href="Subscription.html" class="login">Subscription</a>
+                <a  href="promotions.html">Promotions</a>
+                <a  href="product.html">All Product</a>
+                <a  href="about.html">About Us</a>
+              </div>
+            </div>      
+        </div>
+    </header>
+    <div class="reg"> 
+        <div class="judul">Subscription</div>
+        <div id ="error"></div>
+        <form id ="form" action="/" method = "GET">
+            <div class="user-details">
+                <div class="input">
+                    <span class="detail">Full Name</span>
+                    <input type="text" name="fullname" id="fullname" placeholder="Masukan Nama Lengkap">
+                </div>
+                <div class="input">
+                    <span class="detail">Username</span>
+                    <input type="username" id ="username" name="username" placeholder="Masukan Username">
+                </div>
+                <div class="input">
+                    <span class="detail">Email</span>
+                    <input type="email" id ="email" name="email" placeholder="Masukan Alamat Email">
+                </div>
+                <div class="input">
+                    <span class="detail">Phone Number</span>
+                    <input type="text" id= "phonenumber" placeholder="Masukan Nomor Telepon">
+                </div>
+            </div>
+            <div class="gender-detail">
+                <input type="radio" name="gender" id="dot-1">
+                <input type="radio" name="gender" id="dot-2">
+                <span class="gender-title">Gender</span>
+                <div class="kategori">
+                    <label for="dot-1">
+                        <span class="pilih satu"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="pilih dua"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                </div>
+            </div>
+            <label class ="checkbox" for="myCheckboxId">
+                <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">
+                <div class="checkbox__box"></div>
+                 I Agree To Receive Newsletter
+            </label>
+            <div class="tombol">
+                <input type="submit" value="Subscribe">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
